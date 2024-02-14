@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Document, Page } from 'react-pdf';
-import pdf from './Ray_Thomas_Resume.pdf';
+import pdf from './Raymond_Thomas_Resume.pdf';
 
 function PDFComp() {
   const [numPages, setNumPages] = useState();

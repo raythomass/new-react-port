@@ -1,7 +1,7 @@
 function Projects() {
     return(
         <projects>
-            <h1>Projects</h1>
+            <h1 className="projects-title">Projects</h1>
             <div id="cards">
                 <section className="img-container col-4">
                     
