@@ -5,19 +5,19 @@ function Nav() {
         <nav>
             <ul className="navigation">
                 <li>
-                    <Link to='/' >Home</Link>
+                    <Link className="nav-link" id="links" to='/' >Home</Link>
                 </li>
                 <li>
-                    <Link to='/about' >About</Link>
+                    <Link className="nav-link" id="links" to='/about' >About</Link>
                 </li>
                 <li>
-                    <Link to='/projects' >Projects</Link>
+                    <Link className="nav-link" id="links" to='/projects' >Projects</Link>
                 </li>
                 <li>
-                    <Link to='/contact' >Contact</Link>
+                    <Link className="nav-link" id="links" to='/contact' >Contact</Link>
                 </li>
                 <li>
-                    <Link to='/resume' >Resume</Link>
+                    <Link className="nav-link" id="links" to='/resume' >Resume</Link>
                 </li>
             </ul>
         </nav>

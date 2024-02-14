@@ -2,6 +2,7 @@ import { Outlet } from 'react-router-dom';
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from './components/Nav';
+import Footer from './components/Footer';
 import PDFComp from './PDFComp'
 
 import { pdfjs } from 'react-pdf';
@@ -19,6 +20,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
         <main className="mx-3">
           <Outlet />
         </main>
+        <Footer></Footer>
       </>
     );
   }
