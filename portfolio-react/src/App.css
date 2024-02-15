@@ -132,7 +132,7 @@ skills {
 
 .education-list{
   display: flex;
-  border: 1px solid rgb(190, 190, 190);
+  border: 2px solid rgb(55, 55, 55);
   border-radius: 10px;
   padding: 18px;
 }
@@ -157,57 +157,31 @@ skills {
 .projects {
   margin-left: 10%;
   margin-right: 10%;
+  font-family: 'DM Sans', sans-serif;
 }
 
-.projects-title {
+.project-title {
   font-family: "EB Garamond", serif;
 }
 
-#cards {
+.project-cards {
   display: flex;
-  justify-content: center;
-  margin-bottom: 2%;
-  margin-left: 2%;
-  margin-right: 2%;
-  gap: 2%;
+  gap: 20px;
+  margin-top: 20px;
 }
 
-.img-container {
-  display: block;
-  position: relative;
-  cursor: pointer;
+.project-ind {
+  padding: 30px;
+  border: 2px solid orange;
+  gap: 10px;
 }
 
-.img-container img {
-  width: 100%;
-  height: auto;
+.project-image {
+  max-height: 100%;
+  max-width: 100%;
+  margin-bottom: 15px;
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-
-.img-text {
-  color: white;
-  font-size: 40px;
-  font-weight: bold;
-  text-align: center;
-  padding: 20px;
-}
-
-.img-container:hover .overlay {
-  opacity: 1;
-}
 
 
 /* ------  CONTACT ------ */

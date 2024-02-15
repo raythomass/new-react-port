@@ -2,9 +2,8 @@ function About() {
     return(
         <about>
             <section className="about">
-                {/* <h1 className="about-title">About Me</h1> */}
-                <section className="col-7 about-section">
-                    <h2 className="about-title">About Me</h2>
+                <h1 className="about-title">About Me</h1>
+                <section className="col-7">
                     <p>My name is Ray Thomas and I am a 24 year old Full-Stack Web-Developer from Phoenix, AZ. 
                         I graduated from Arizona State University in February 2024 with a certificate of completion from the Full-Stack Web Development Bootcamp. 
                         I also graduated from Grand Canyon University in 2021 with a Bachelor's Degree in Advertising and Graphic Design. 
