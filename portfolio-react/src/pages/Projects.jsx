@@ -1,6 +1,6 @@
 function Projects() {
     return(
-        <projects>
+        <projects className="projects">
             <h1 className="projects-title">Projects</h1>
             <div id="cards">
                 <section className="img-container col-4">
