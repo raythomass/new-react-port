@@ -125,66 +125,63 @@ skills {
   font-family: "EB Garamond", serif;
 }
 
-.about-card {
+.education-cards {
   display: flex;
+  gap: 25px;
 }
 
 .education-list{
-  border: solid 1px red;
+  display: flex;
+  border: 2px solid rgb(55, 55, 55);
+  border-radius: 10px;
+  padding: 18px;
+}
+
+.ed-content-title {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  list-style: none;
+  margin-top: 15px;
+}
+
+.ed-content-desc {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
 }
 
 
 /* ------  PROJECTS ------ */
 
-.projects-title {
+.projects {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.project-title {
   font-family: "EB Garamond", serif;
 }
 
-#cards {
+.project-cards {
   display: flex;
-  justify-content: center;
-  margin-bottom: 2%;
-  margin-left: 2%;
-  margin-right: 2%;
-  gap: 2%;
+  gap: 20px;
+  margin-top: 20px;
 }
 
-.img-container {
-  display: block;
-  position: relative;
-  cursor: pointer;
+.project-ind {
+  padding: 30px;
+  border: 2px solid orange;
+  gap: 10px;
 }
 
-.img-container img {
-  width: 100%;
-  height: auto;
+.project-image {
+  max-height: 100%;
+  max-width: 100%;
+  margin-bottom: 15px;
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-
-.img-text {
-  color: white;
-  font-size: 40px;
-  font-weight: bold;
-  text-align: center;
-  padding: 20px;
-}
-
-.img-container:hover .overlay {
-  opacity: 1;
-}
 
 
 /* ------  CONTACT ------ */
