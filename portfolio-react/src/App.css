@@ -75,8 +75,7 @@ skills {
 
 .skill-card {
   width: 300px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 10px;
   text-align: center;
   border: 2px solid rgb(55, 55, 55);
   border-radius: 10px;
@@ -112,8 +111,26 @@ skills {
 
 /* ------  ABOUT ------ */
 
+.about {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.about-section {
+  margin-top: 50px;
+}
+
 .about-title {
   font-family: "EB Garamond", serif;
+}
+
+.about-card {
+  display: flex;
+}
+
+.education-list{
+  border: solid 1px red;
 }
 
 
