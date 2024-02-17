@@ -1,51 +1,34 @@
 import { useState } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSquareGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import {faEnvelope} from '@fortawesome/free-solid-svg-icons'
 
 function Contact() {
-    const [insertName, setName] = useState('');
-    const [insertEmail, setEmail] = useState('');
-
-    const handleInputChange = (e) => {
-        const {name, value} = e.target;
-
-        return name === 'insertName' ? setName(value) : setEmail(value);
-    };
-
-    const handleFormSubmit = (e) => {
-        e.preventDefault();
-
-        alert(`Hello ${insertName} from ${insertEmail}`)
-    }
-
-
-
-    return(
-        <div className="submit-form">
-      <h1 className="contact-title">
-        Contact Me
-      </h1>
-      <form className="form" onSubmit={handleFormSubmit}>
-        <h5>Name:</h5>
-        <input
-          value={insertName}
-          name="insertName"
-          onChange={handleInputChange}
-          type="text"
-          placeholder="Enter Name"
-        />
-        <h5>Email:</h5>
-        <input
-          value={insertEmail}
-          name="insertEmail"
-          onChange={handleInputChange}
-          type="email"
-          placeholder="Enter Email"
-        />
-        <button className="submit-btn" type="submit">
-          Submit
-        </button>
-      </form>
-    </div>
-    )
+  return (
+    <contact>
+      <section className="contact">
+        <h1 className="contact-title">Contact</h1>
+        <section className="contact-line">
+                <FontAwesomeIcon icon={faSquareGithub} className='fa-3x' />
+                <div>
+                  <a href='https://github.com/raythomass'>GitHub</a>
+                </div>
+        </section>
+        <section className="contact-line">
+                <FontAwesomeIcon icon={faLinkedin} className='fa-3x' />
+                <div>
+                  <a href='https://github.com/raythomass'>LinkedIn</a>
+                </div>
+        </section>
+        <section className="contact-line">
+                <FontAwesomeIcon icon={faEnvelope} className='fa-3x' />
+                <div>
+                  <a href='https://github.com/raythomass'>Email Me</a>
+                </div>
+        </section>
+      </section>
+    </contact>
+  )
 }
 
 export default Contact;
