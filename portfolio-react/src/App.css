@@ -208,32 +208,25 @@ skills {
 
 
 /* ------  CONTACT ------ */
+.contact {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'DM Sans', sans-serif;
+}
 
 .contact-title {
   font-family: "EB Garamond", serif;
 }
 
-.form {
+.contact-line {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
   gap: 10px;
-  margin-top: 25px;
+  align-items: center;
 }
 
-.form input {
-  padding: 5px;
-  width: 25%;
-}
-
-.submit-btn {
-  width: 15%;
-  border-radius: 10px;
-  border-width: 1px;
-  border-style: solid;
-  background-color: rgba(100, 166, 168,0.4);
-  border-color: rgb(69, 122, 123);
-  text-decoration: none;
+.p-tag {
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 /* ------  RESUME ------ */
@@ -263,6 +256,6 @@ skills {
   color: black;
 }
 
-.icon-color {
+.icon-color-footer {
   background-color: #dfdfdf;
 }
