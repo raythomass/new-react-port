@@ -16,12 +16,10 @@ function Projects() {
                                  upcoming games and will direct the user to the Ticketmaster site.
                             </p>
                         </div>
-                        <button>
-                            <a href="https://github.com/raythomass/project-one-team4">GitHub</a>
-                        </button>
-                        <button>
-                            <a href="https://raythomass.github.io/project-one-team4/">Deployed App</a>
-                        </button>
+                        <div className="btns">
+                                <a className="project-link" href="https://github.com/raythomass/project-one-team4">GitHub</a>
+                                <a className="project-link" href="https://raythomass.github.io/project-one-team4/">Deployed App</a>
+                        </div>
                     </section>
 
                     <section className=" project-ind col-4">
@@ -34,12 +32,10 @@ function Projects() {
                                 a text editor used for programming.
                             </p>
                         </div>
-                        <button>
-                            <a href="https://github.com/raythomass/text-editor-pwa">GitHub</a>
-                        </button>
-                        <button>
-                            <a href="https://text-editor-pwa-u1j4.onrender.com/">Deployed App</a>
-                        </button>
+                        <div className="btns">
+                                <a className="project-link" href="https://github.com/raythomass/text-editor-pwa">GitHub</a>
+                                <a className="project-link" href="https://text-editor-pwa-u1j4.onrender.com/">Deployed App</a>
+                        </div>
                     </section>
 
                     <section className=" project-ind col-4">
@@ -52,12 +48,10 @@ function Projects() {
                                 the page with the forecast details of the city the user has searched.
                             </p>
                         </div>
-                        <button>
-                            <a href="https://github.com/raythomass/weather-forecast">GitHub</a>
-                        </button>
-                        <button>
-                            <a href="https://raythomass.github.io/weather-forecast/">Deployed App</a>
-                        </button>
+                        <div className="btns">
+                                <a className="project-link" href="https://github.com/raythomass/weather-forecast">GitHub</a>
+                                <a className="project-link" href="https://raythomass.github.io/weather-forecast/">Deployed App</a>
+                        </div>
                     </section>
                 </section>
 
@@ -72,12 +66,10 @@ function Projects() {
                                  by adding notes and reminders for their daily tasks corresponding to the time they take place.
                             </p>
                         </div>
-                        <button>
-                            <a href="https://github.com/raythomass/daily-planner">GitHub</a>
-                        </button>
-                        <button>
-                            <a href="https://raythomass.github.io/daily-planner/">Deployed App</a>
-                        </button>
+                        <div className="btns">
+                                <a className="project-link" href="https://github.com/raythomass/daily-planner">GitHub</a>
+                                <a className="project-link" href="https://raythomass.github.io/daily-planner/">Deployed App</a>
+                        </div>
                     </section>
 
                     <section className=" project-ind col-4">
@@ -91,12 +83,10 @@ function Projects() {
                                 will be useful in creating a password for the user.
                             </p>
                         </div>
-                        <button>
-                            <a href="https://github.com/raythomass/password-generator">GitHub</a>
-                        </button>
-                        <button>
-                            <a href="https://raythomass.github.io/password-generator/">Deployed App</a>
-                        </button>
+                        <div className="btns">
+                                <a className="project-link" href="https://github.com/raythomass/password-generator">GitHub</a>
+                                <a className="project-link" href="https://raythomass.github.io/password-generator/">Deployed App</a>
+                        </div>
                     </section>
 
                     <section className=" project-ind col-4">
@@ -110,12 +100,10 @@ function Projects() {
                                 the amount of time left in the quiz when it was finished.
                             </p>
                         </div>
-                        <button>
-                            <a href="https://github.com/raythomass/coding-quiz">GitHub</a>
-                        </button>
-                        <button>
-                            <a href="https://raythomass.github.io/coding-quiz/">Deployed App</a>
-                        </button>
+                        <div className="btns">
+                                <a className="project-link" href="https://github.com/raythomass/coding-quiz">GitHub</a>
+                                <a className="project-link" href="https://raythomass.github.io/coding-quiz/">Deployed App</a>
+                        </div>
                     </section>
                 </section>
 
