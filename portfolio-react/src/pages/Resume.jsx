@@ -2,11 +2,13 @@ import PDFComp from "../PDFComp";
 
 function Resume() {
     return(
-        <resume className="">
-            <h1 className="resume-title">Resume</h1>
-            <div className="d-flex justify-content-center">
-                <PDFComp/>
-            </div>
+        <resume>
+            <section className="resume">
+                <h1 className="resume-title">Resume</h1>
+                <div className="d-flex justify-content-center">
+                    <PDFComp/>
+                </div>
+            </section>
         </resume>
     )
 }

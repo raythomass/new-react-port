@@ -218,18 +218,49 @@ skills {
   font-family: "EB Garamond", serif;
 }
 
+.line-container {
+  display: flex;
+  gap: 65px;
+  margin-top: 50px;
+}
+
 .contact-line {
   display: flex;
   gap: 10px;
   align-items: center;
+  color: rgb(55, 55, 55) ;
+  border: 2px solid rgb(55, 55, 55);
+  padding-top: 5px ;
+  padding-bottom: 5px ;
+  padding-left: 15px ;
+  padding-right: 15px ;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.contact-line:hover {
+  box-shadow: 5px 5px rgb(55, 55, 55);
+  background-color: #e4e2d6;
 }
 
 .p-tag {
   margin-bottom: 0px;
   margin-top: 0px;
+  background-color: transparent;
 }
 
+.icon-contact {
+  background-color: transparent;
+}
+
+
 /* ------  RESUME ------ */
+
+.resume {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: 'DM Sans', sans-serif;
+}
 
 .resume-title {
   font-family: "EB Garamond", serif;
