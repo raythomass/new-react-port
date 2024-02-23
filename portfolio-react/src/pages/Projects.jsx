@@ -7,7 +7,7 @@ function Projects() {
                 <section className="project-cards">
                     <section className=" project-ind col-4">
                         <div className="col-12">
-                            <img className="project-image" src="./src/images/football-database.jpg"></img>
+                            <img className="project-image" src="./public/football-database.jpg"></img>
                         </div>
                         <div className="project-details col-12">
                             <h3 className="project-title">Football Database</h3>
@@ -24,7 +24,7 @@ function Projects() {
 
                     <section className=" project-ind col-4">
                         <div className="col-12">
-                            <img className="project-image" src="./src/images/text-editor.jpg"></img>
+                            <img className="project-image" src="./public/text-editor.jpg"></img>
                         </div>
                         <div className="project-details col-12">
                             <h3 className="project-title">Text Editor</h3>
@@ -40,7 +40,7 @@ function Projects() {
 
                     <section className=" project-ind col-4">
                         <div className="col-12">
-                            <img className="project-image" src="./src/images/weather-forecast.jpg"></img>
+                            <img className="project-image" src="./public/weather-forecast.jpg"></img>
                         </div>
                         <div className="project-details col-12">
                             <h3 className="project-title">Weather Forecast</h3>
@@ -58,7 +58,7 @@ function Projects() {
                 <section className="project-cards">
                     <section className=" project-ind col-4">
                         <div className="col-12">
-                            <img className="project-image" src="./src/images/work-scheduler.jpg"></img>
+                            <img className="project-image" src="./public/work-scheduler.jpg"></img>
                         </div>
                         <div className="project-details col-12">
                             <h3 className="project-title">Daily Scheduler</h3>
@@ -74,7 +74,7 @@ function Projects() {
 
                     <section className=" project-ind col-4">
                         <div className="col-12">
-                            <img className="project-image" src="./src/images/password-generator.jpg"></img>
+                            <img className="project-image" src="./public/password-generator.jpg"></img>
                         </div>
                         <div className="project-details col-12">
                             <h3 className="project-title">Password Generator</h3>
@@ -91,7 +91,7 @@ function Projects() {
 
                     <section className=" project-ind col-4">
                         <div className="col-12">
-                            <img className="project-image" src="./src/images/coding-quiz.jpg"></img>
+                            <img className="project-image" src="./public/coding-quiz.jpg"></img>
                         </div>
                         <div className="project-details col-12">
                             <h3 className="project-title">Coding Quiz</h3>

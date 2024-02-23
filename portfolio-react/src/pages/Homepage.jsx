@@ -12,7 +12,7 @@ function Home() {
                     <p className="h5" id="header-text">I'm a Full-Stack Web Developer from Phoenix, AZ</p>
                 </section>
                 <section>
-                    <img className="profile-pic" src="../src/images/Ray_Profile.jpg"></img>
+                    <img className="profile-pic" src="../public/Ray_Profile.jpg"></img>
                 </section>
             </section>
         </header>
