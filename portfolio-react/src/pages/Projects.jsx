@@ -7,6 +7,22 @@ function Projects() {
                 <section className="project-cards">
                     <section className=" project-ind col-4">
                         <div className="col-12">
+                            <img className="project-image" src="/rays_pizzeria.jpg"></img>
+                        </div>
+                        <div className="project-details col-12">
+                            <h3 className="project-title">Ray's Pizzeria</h3>
+                            <p>This full-stack application is a mock pizzeria website where users
+                                can signup, login, and add pizza to their cart as if they were ordering from an online menu.
+                            </p>
+                        </div>
+                        <div className="btns">
+                                <a className="project-link" href="https://github.com/raythomass/custom-pizza-T3">GitHub</a>
+                                <a className="project-link" href="https://pizza-maker-3xqw.onrender.com/">Deployed App</a>
+                        </div>
+                    </section>
+
+                    <section className=" project-ind col-4">
+                        <div className="col-12">
                             <img className="project-image" src="/football-database.jpg"></img>
                         </div>
                         <div className="project-details col-12">
@@ -37,7 +53,9 @@ function Projects() {
                                 <a className="project-link" href="https://text-editor-pwa-u1j4.onrender.com/">Deployed App</a>
                         </div>
                     </section>
+                </section>
 
+                <section className="project-cards">
                     <section className=" project-ind col-4">
                         <div className="col-12">
                             <img className="project-image" src="/weather-forecast.jpg"></img>
@@ -53,9 +71,7 @@ function Projects() {
                                 <a className="project-link" href="https://raythomass.github.io/weather-forecast/">Deployed App</a>
                         </div>
                     </section>
-                </section>
 
-                <section className="project-cards">
                     <section className=" project-ind col-4">
                         <div className="col-12">
                             <img className="project-image" src="/work-scheduler.jpg"></img>
@@ -86,23 +102,6 @@ function Projects() {
                         <div className="btns">
                                 <a className="project-link" href="https://github.com/raythomass/password-generator">GitHub</a>
                                 <a className="project-link" href="https://raythomass.github.io/password-generator/">Deployed App</a>
-                        </div>
-                    </section>
-
-                    <section className=" project-ind col-4">
-                        <div className="col-12">
-                            <img className="project-image" src="/coding-quiz.jpg"></img>
-                        </div>
-                        <div className="project-details col-12">
-                            <h3 className="project-title">Coding Quiz</h3>
-                            <p>This Coding Quiz tests the user's knowledge of coding with a simple quiz. 
-                                This quiz gives multiple choices to each question and then logs the score as 
-                                the amount of time left in the quiz when it was finished.
-                            </p>
-                        </div>
-                        <div className="btns">
-                                <a className="project-link" href="https://github.com/raythomass/coding-quiz">GitHub</a>
-                                <a className="project-link" href="https://raythomass.github.io/coding-quiz/">Deployed App</a>
                         </div>
                     </section>
                 </section>
