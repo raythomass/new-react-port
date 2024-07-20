@@ -7,6 +7,21 @@ function Projects() {
                 <section className="project-cards">
                     <section className=" project-ind col-4">
                         <div className="col-12">
+                            <img className="project-image" src="/streaming-app.jpg"></img>
+                        </div>
+                        <div className="project-details col-12">
+                            <h3 className="project-title">Streaming App</h3>
+                            <p>Browse trending Movies and TV Shows, as well as search from a vast database of film and television to stream.
+                            </p>
+                        </div>
+                        <div className="btns">
+                                <a className="project-link" href="https://github.com/raythomass/streaming-app">GitHub</a>
+                                <a className="project-link" href="https://raysstreamingapp.netlify.app/">Deployed App</a>
+                        </div>
+                    </section>
+
+                    <section className=" project-ind col-4">
+                        <div className="col-12">
                             <img className="project-image" src="/rays_pizzeria.jpg"></img>
                         </div>
                         <div className="project-details col-12">
@@ -37,7 +52,9 @@ function Projects() {
                                 <a className="project-link" href="https://raythomass.github.io/project-one-team4/">Deployed App</a>
                         </div>
                     </section>
+                </section>
 
+                <section className="project-cards">
                     <section className=" project-ind col-4">
                         <div className="col-12">
                             <img className="project-image" src="/text-editor.jpg"></img>
@@ -53,9 +70,7 @@ function Projects() {
                                 <a className="project-link" href="https://text-editor-pwa-u1j4.onrender.com/">Deployed App</a>
                         </div>
                     </section>
-                </section>
 
-                <section className="project-cards">
                     <section className=" project-ind col-4">
                         <div className="col-12">
                             <img className="project-image" src="/weather-forecast.jpg"></img>
@@ -88,22 +103,6 @@ function Projects() {
                         </div>
                     </section>
 
-                    <section className=" project-ind col-4">
-                        <div className="col-12">
-                            <img className="project-image" src="/password-generator.jpg"></img>
-                        </div>
-                        <div className="project-details col-12">
-                            <h3 className="project-title">Password Generator</h3>
-                            <p>This password generator is used to give a random password containing criteria 
-                                given by the user. If a random password is needed for any reason this password generator 
-                                will be useful in creating a password for the user.
-                            </p>
-                        </div>
-                        <div className="btns">
-                                <a className="project-link" href="https://github.com/raythomass/password-generator">GitHub</a>
-                                <a className="project-link" href="https://raythomass.github.io/password-generator/">Deployed App</a>
-                        </div>
-                    </section>
                 </section>
 
             </section>
