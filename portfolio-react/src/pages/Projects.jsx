@@ -22,17 +22,17 @@ function Projects() {
 
                     <section className=" project-ind col-4">
                         <div className="col-12">
-                            <img className="project-image" src="/rays_pizzeria.jpg"></img>
+                            <img className="project-image" src="/weather-forecast.jpg"></img>
                         </div>
                         <div className="project-details col-12">
-                            <h3 className="project-title">Ray's Pizzeria</h3>
-                            <p>This full-stack application is a mock pizzeria website where users
-                                can signup, login, and add pizza to their cart as if they were ordering from an online menu.
+                            <h3 className="project-title">Weather Forecast</h3>
+                            <p>The weather forecast app prompts a user to search a city. Upon entering a city, the weather forecast app will populate
+                                the page with the forecast details of the city the user has searched.
                             </p>
                         </div>
                         <div className="btns">
-                                <a className="project-link" href="https://github.com/raythomass/custom-pizza-T3">GitHub</a>
-                                <a className="project-link" href="https://pizza-maker-3xqw.onrender.com/">Deployed App</a>
+                                <a className="project-link" href="https://github.com/raythomass/weather-app">GitHub</a>
+                                <a className="project-link" href="https://raysweather.netlify.app/">Deployed App</a>
                         </div>
                     </section>
 
@@ -73,17 +73,17 @@ function Projects() {
 
                     <section className=" project-ind col-4">
                         <div className="col-12">
-                            <img className="project-image" src="/weather-forecast.jpg"></img>
+                            <img className="project-image" src="/password-generator.jpg"></img>
                         </div>
                         <div className="project-details col-12">
-                            <h3 className="project-title">Weather Forecast</h3>
-                            <p>The weather forecast app prompts a user to search a city. Upon entering a city, the weather forecast app will populate
-                                the page with the forecast details of the city the user has searched.
+                            <h3 className="project-title">Password Generator</h3>
+                            <p>Users in need of a password can simply answer some questions that determine
+                            length, characters, etc and will be given a password to their specification.
                             </p>
                         </div>
                         <div className="btns">
-                                <a className="project-link" href="https://github.com/raythomass/weather-forecast">GitHub</a>
-                                <a className="project-link" href="https://raythomass.github.io/weather-forecast/">Deployed App</a>
+                                <a className="project-link" href="https://github.com/raythomass/password-generator">GitHub</a>
+                                <a className="project-link" href="https://raythomass.github.io/password-generator/">Deployed App</a>
                         </div>
                     </section>
 
