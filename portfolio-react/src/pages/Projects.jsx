@@ -89,17 +89,17 @@ function Projects() {
 
                     <section className=" project-ind col-4">
                         <div className="col-12">
-                            <img className="project-image" src="/work-scheduler.jpg"></img>
+                            <img className="project-image" src="/budget-tracker.jpg"></img>
                         </div>
                         <div className="project-details col-12">
-                            <h3 className="project-title">Daily Scheduler</h3>
-                            <p>This application allows the user to set a schedule for their workday
-                                 by adding notes and reminders for their daily tasks corresponding to the time they take place.
+                            <h3 className="project-title">Budget Tracker</h3>
+                            <p>(Current Project)</p>
+                            <p>This MERN stack application will allow users to create an account, log in, and track theri expenses and income with 
+                                visual aids from ChartJS
                             </p>
                         </div>
                         <div className="btns">
-                                <a className="project-link" href="https://github.com/raythomass/daily-planner">GitHub</a>
-                                <a className="project-link" href="https://raythomass.github.io/daily-planner/">Deployed App</a>
+                                <a className="project-link" href="https://github.com/raythomass/budget-tracker">GitHub</a>
                         </div>
                     </section>
 
